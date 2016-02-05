@@ -1,0 +1,17 @@
+{
+  "name": "msm-transcoder-nodejs",
+  "version": "0.1.0",
+  "author" : "hotdog929 <hotdog929@gmail.com>",
+  "description": "MSM data transcoder for Node.js",
+  "main": "index",
+  "bin": {
+    "msm-transcoder-nodejs": "./bin/transcoder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eHanlin/msm-transcoder-nodejs.git"
+  },
+  "dependencies": {
+    "JSON": "1.0.0"
+  }
+}

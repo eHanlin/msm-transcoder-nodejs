@@ -1,0 +1,26 @@
+/target
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.class
+
+# eclipse specific
+.metadata
+jrebel.lic
+.settings
+.classpath
+.project
+
+# intellij
+*.eml
+*.iml
+*.ipr
+*.iws
+.*.sw?
+.idea
+
+.history
+
+/node_modules

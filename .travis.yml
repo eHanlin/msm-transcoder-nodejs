@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "4.1"
+deploy:
+  provider: npm
+  email: "hotdog929@gmail.com"
+  api_key: "${NPM_KEY}"
+on:
+  tags: true
+  skip_cleanup: true
